@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment (contains API keys)
+.env
+.env.local
+.env.production
+
+# Database (local state)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build output
+dist/
+
+# Source videos (too large, download separately)
+assets/sources/
+
+# Large compiled artifacts (regenerable via pipeline)
+assets/outputs/compiled/
+
+# Large animation clips (regenerable via Veo)
+assets/outputs/animations/
+
+# Large video outputs (regenerable)
+assets/outputs/videos/
+
+# Generated output (per-run)
+output/
